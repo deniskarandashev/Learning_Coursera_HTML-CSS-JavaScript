@@ -1,39 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav id="header-nav" class="navbar navbar-default">
+      <nav id="header-nav" class="navbar navbar-expand-lg navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <!-- <a href="index.html"  >
+            <div id="logo-img" alt="Cat logo"></div>
+          </a> -->
+          <!-- <div class="navbar-brand" href="#"> -->
+            <!-- <h1>Food, LLC</h1> -->
+            <!-- <h1>Fish House</h1> -->
+            <!-- <p>Meow</p> -->
+          <!-- </div>  -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <h1>
+                Food, LLC
+              </h1>
+            </a>
+          </div>
+
+          <button
+            class="navbar-toggler d-block d-md-none d-flex"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav d-block d-md-none dropdown-bg">
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#seafood">Seafood</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#fishdishes">Fish dishes</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#sushi">Sushi</a></li>
+              <li><hr class="dropdown-divider" /></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </nav>
+
+      <main>
           <div class="container">
-            <div class="navbar-header">
-              <a href="index.html" class="pull-left visible-md visible-lg">
-                <div id="logo-img" alt="Cat logo"></div>
-              </a>
-    
-              <div class="navbar-brand">
-                <!-- <a href="index.html"><h1>Fish market</h1></a> -->
-                <!-- <p>
-                  <img src="images/star-k-logo.png" alt="Kosher certification">
-                  <span>Kosher Certified</span>
-                </p> -->
-              </div>
-    
-    
+            <h1 id="menu">Our menu</h1>
+            <div class="row">
+              <div id="seafood" class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="item">
+                    <div class="item-title seafood">Seafood</div>
+                    <p class="item-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed ullamcorper risus. Suspendisse tempor nunc eu diam pharetra facilisis. Sed et faucibus diam. Cras porta dignissim sapien sit amet convallis. Nulla nulla dolor, dignissim in scelerisque vitae, fringilla quis enim. Nam aliquam magna non tellus suscipit, non consequat sapien fermentum. Sed imperdiet tortor turpis, sit amet finibus dui pellentesque sodales. Mauris et ultrices ante. Quisque ut dui pulvinar, rutrum nisl eu, vulputate lorem. Integer convallis tincidunt ex, cursus venenatis magna ultrices et. Vestibulum neque mi, convallis a ipsum ac, condimentum congue nulla. Duis tincidunt bibendum lacinia. Aliquam eu mi ante.
+Donec ut ultricies massa. Morbi quis sem aliquet metus fermentum sodales sollicitudin et lectus. Aliquam consequat lacinia nulla, sit amet mattis tellus commodo ut. Sed vitae nibh ornare, mattis ipsum ac, ullamcorper neque. Proin nec nisi eget ipsum gravida scelerisque a eget sapien. Aenean imperdiet ac mi ut vehicula. Etiam at metus et lacus luctus dignissim vitae eget metus. Sed non interdum velit. Sed enim arcu, efficitur quis sem at, placerat pellentesque tellus. Quisque maximus vulputate porttitor.
+Pellentesque vel lectus at est sodales posuere quis a dui. Mauris posuere tristique risus, non pellentesque elit facilisis sit amet. Suspendisse tempus eleifend dapibus. Phasellus tristique fringilla sapien sit amet porta. Sed in finibus urna. Pellentesque vestibulum dignissim turpis, sit amet gravida felis auctor nec. Suspendisse non cursus diam, eget pellentesque metus. Integer id laoreet purus. Maecenas fringilla velit neque, elementum hendrerit lacus eleifend quis. Vivamus magna ante, iaculis in rutrum ut, dapibus ac felis. Mauris cursus pharetra nunc, quis pellentesque nibh.
+Sed faucibus eros ac risus posuere aliquam non in quam. Aliquam arcu metus, luctus quis augue et, cursus pellentesque nunc. Integer pharetra eros nec condimentum venenatis. Integer mauris dolor, fermentum sit amet porttitor sed, aliquet eget lorem. Aenean euismod venenatis massa, id ultrices metus tempus sed. Phasellus pretium lacinia fringilla. Maecenas et augue neque. Morbi facilisis nisi non urna dignissim, nec faucibus mi dignissim.
+Vestibulum ullamcorper gravida diam non lobortis. Nam felis turpis, tincidunt ac ante ac, ullamcorper laoreet ligula. Donec tincidunt maximus lectus, vel mollis neque tempor sit amet. Vivamus non nulla et orci laoreet dapibus sed tincidunt nisl. Phasellus nisi neque, tempor nec aliquet eget, convallis tincidunt est. Integer euismod sodales purus ut ultricies. Nunc et tincidunt purus.
+                    </p>
+                      <a class="btn btn-secondary" href="#menu">Our menu</a>      
+                  </div>
+                </div>
+              <div id="fishdishes" class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="item">
+                    <div class="item-title fishdishes">Fish dishes</div>
+                    <p class="item-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed ullamcorper risus. Suspendisse tempor nunc eu diam pharetra facilisis. Sed et faucibus diam. Cras porta dignissim sapien sit amet convallis. Nulla nulla dolor, dignissim in scelerisque vitae, fringilla quis enim. Nam aliquam magna non tellus suscipit, non consequat sapien fermentum. Sed imperdiet tortor turpis, sit amet finibus dui pellentesque sodales. Mauris et ultrices ante. Quisque ut dui pulvinar, rutrum nisl eu, vulputate lorem. Integer convallis tincidunt ex, cursus venenatis magna ultrices et. Vestibulum neque mi, convallis a ipsum ac, condimentum congue nulla. Duis tincidunt bibendum lacinia. Aliquam eu mi ante.
+                      Donec ut ultricies massa. Morbi quis sem aliquet metus fermentum sodales sollicitudin et lectus. Aliquam consequat lacinia nulla, sit amet mattis tellus commodo ut. Sed vitae nibh ornare, mattis ipsum ac, ullamcorper neque. Proin nec nisi eget ipsum gravida scelerisque a eget sapien. Aenean imperdiet ac mi ut vehicula. Etiam at metus et lacus luctus dignissim vitae eget metus. Sed non interdum velit. Sed enim arcu, efficitur quis sem at, placerat pellentesque tellus. Quisque maximus vulputate porttitor.
+                      Pellentesque vel lectus at est sodales posuere quis a dui. Mauris posuere tristique risus, non pellentesque elit facilisis sit amet. Suspendisse tempus eleifend dapibus. Phasellus tristique fringilla sapien sit amet porta. Sed in finibus urna. Pellentesque vestibulum dignissim turpis, sit amet gravida felis auctor nec. Suspendisse non cursus diam, eget pellentesque metus. Integer id laoreet purus. Maecenas fringilla velit neque, elementum hendrerit lacus eleifend quis. Vivamus magna ante, iaculis in rutrum ut, dapibus ac felis. Mauris cursus pharetra nunc, quis pellentesque nibh.
+                      Sed faucibus eros ac risus posuere aliquam non in quam. Aliquam arcu metus, luctus quis augue et, cursus pellentesque nunc. Integer pharetra eros nec condimentum venenatis. Integer mauris dolor, fermentum sit amet porttitor sed, aliquet eget lorem. Aenean euismod venenatis massa, id ultrices metus tempus sed. Phasellus pretium lacinia fringilla. Maecenas et augue neque. Morbi facilisis nisi non urna dignissim, nec faucibus mi dignissim.
+                      Vestibulum ullamcorper gravida diam non lobortis. Nam felis turpis, tincidunt ac ante ac, ullamcorper laoreet ligula. Donec tincidunt maximus lectus, vel mollis neque tempor sit amet. Vivamus non nulla et orci laoreet dapibus sed tincidunt nisl. Phasellus nisi neque, tempor nec aliquet eget, convallis tincidunt est. Integer euismod sodales purus ut ultricies. Nunc et tincidunt purus.
+                    </p>
+                    <a class="btn btn-secondary" href="#menu">Our menu</a> 
+                  </div>
+                </div>
+                <div id="sushi" class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="item">
+                    <div class="item-title sushi">Sushi</div>
+                    <p class="item-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed ullamcorper risus. Suspendisse tempor nunc eu diam pharetra facilisis. Sed et faucibus diam. Cras porta dignissim sapien sit amet convallis. Nulla nulla dolor, dignissim in scelerisque vitae, fringilla quis enim. Nam aliquam magna non tellus suscipit, non consequat sapien fermentum. Sed imperdiet tortor turpis, sit amet finibus dui pellentesque sodales. Mauris et ultrices ante. Quisque ut dui pulvinar, rutrum nisl eu, vulputate lorem. Integer convallis tincidunt ex, cursus venenatis magna ultrices et. Vestibulum neque mi, convallis a ipsum ac, condimentum congue nulla. Duis tincidunt bibendum lacinia. Aliquam eu mi ante.
+                      Donec ut ultricies massa. Morbi quis sem aliquet metus fermentum sodales sollicitudin et lectus. Aliquam consequat lacinia nulla, sit amet mattis tellus commodo ut. Sed vitae nibh ornare, mattis ipsum ac, ullamcorper neque. Proin nec nisi eget ipsum gravida scelerisque a eget sapien. Aenean imperdiet ac mi ut vehicula. Etiam at metus et lacus luctus dignissim vitae eget metus. Sed non interdum velit. Sed enim arcu, efficitur quis sem at, placerat pellentesque tellus. Quisque maximus vulputate porttitor.
+                      Pellentesque vel lectus at est sodales posuere quis a dui. Mauris posuere tristique risus, non pellentesque elit facilisis sit amet. Suspendisse tempus eleifend dapibus. Phasellus tristique fringilla sapien sit amet porta. Sed in finibus urna. Pellentesque vestibulum dignissim turpis, sit amet gravida felis auctor nec. Suspendisse non cursus diam, eget pellentesque metus. Integer id laoreet purus. Maecenas fringilla velit neque, elementum hendrerit lacus eleifend quis. Vivamus magna ante, iaculis in rutrum ut, dapibus ac felis. Mauris cursus pharetra nunc, quis pellentesque nibh.
+                      Sed faucibus eros ac risus posuere aliquam non in quam. Aliquam arcu metus, luctus quis augue et, cursus pellentesque nunc. Integer pharetra eros nec condimentum venenatis. Integer mauris dolor, fermentum sit amet porttitor sed, aliquet eget lorem. Aenean euismod venenatis massa, id ultrices metus tempus sed. Phasellus pretium lacinia fringilla. Maecenas et augue neque. Morbi facilisis nisi non urna dignissim, nec faucibus mi dignissim.
+                      Vestibulum ullamcorper gravida diam non lobortis. Nam felis turpis, tincidunt ac ante ac, ullamcorper laoreet ligula. Donec tincidunt maximus lectus, vel mollis neque tempor sit amet. Vivamus non nulla et orci laoreet dapibus sed tincidunt nisl. Phasellus nisi neque, tempor nec aliquet eget, convallis tincidunt est. Integer euismod sodales purus ut ultricies. Nunc et tincidunt purus.
+                    </p>
+                    <a class="btn btn-secondary" href="#menu">Our menu</a> 
+                  </div>
+                </div>
             </div>
           </div>
-        </nav>
-    
-      </header>
+        </main>
 
+          </header>
 
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
