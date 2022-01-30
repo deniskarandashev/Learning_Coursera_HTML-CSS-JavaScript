@@ -56,6 +56,10 @@ body {
   vertical-align: middle;
 }
 
+#navbarSupportedContent {
+  text-align: center;
+}
+
 .dropdown-item:hover {
   border-radius: 4px;
   background-color: blue;
