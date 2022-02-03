@@ -8,6 +8,8 @@ Homeworks:
 
 3. JS with IIFE (Immediately Invoked Function Expression) : https://deniskarandashev.github.io/module4-solution/
 
+4. Restaurant project: https://deniskarandashev.github.io/module5-solution/
+
 # Yandex
 Homeworks:
 1. cartoon with html and css https://deniskarandashev.github.io/Yandex/html_css_base/cartoon/index.html
